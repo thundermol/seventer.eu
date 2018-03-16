@@ -1,17 +1,12 @@
 <template>
-  <div id="app">
-    <app-header/>
-    <app-content/>
-    <app-footer/>
+  <div class="container center-content">
+    <router-view />
   </div>
 </template>
 
-<script>
-import AppHeader from './components/AppHeader'
-import AppContent from './components/AppContent'
-import AppFooter from './components/AppFooter'
-export default {
-  name: 'App',
-  components: {AppHeader, AppContent, AppFooter}
+<style scoped>
+.container {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width: 1200px;
 }
-</script>
+</style>
