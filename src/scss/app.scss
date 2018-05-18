@@ -2,5 +2,14 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 section {
-  padding: 2em 0;
+  padding: $spacer 0;
+}
+.card {
+  transition: transform .2s;
+  box-shadow: 0 3px 9px rgba(0,0,0,.2);
+  @include media-breakpoint-up(sm){
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
 }
