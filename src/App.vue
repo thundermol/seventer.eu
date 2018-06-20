@@ -1,13 +1,17 @@
 <template>
-  <div class="container center-content">
-    <router-view />
+  <div id="app">
+    <app-header/>
+    <app-content/>
+    <app-footer/>
   </div>
 </template>
 
-<style lang="stylus" scoped>
-
-.container
-  font-family 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  max-width 1200px
-
-</style>
+<script>
+import AppHeader from './components/AppHeader'
+import AppContent from './components/AppContent'
+import AppFooter from './components/AppFooter'
+export default {
+  name: 'App',
+  components: {AppHeader, AppContent, AppFooter}
+}
+</script>

@@ -20,17 +20,29 @@ module.exports = merge(baseConfig, {
   module: {
     rules: [
       {
-        test: /\.css?$/,
+        test: /\.scss$/,
         use: [
-          MiniCssExtractPlugin.loader, 
-          'css-loader'
+          {
+            loader: "vue-style-loader" // creates style nodes from JS strings
+          },
+          {
+            loader: "css-loader" // translates CSS into CommonJS
+          },
+          {
+            loader: "sass-loader" // compiles Sass to CSS
+          }
+
         ]
-      }, {
-        test: /\.styl(us)?$/,
+      },
+      {
+        test: /\.css$/,
         use: [
-          MiniCssExtractPlugin.loader, 
-          'css-loader', 
-          'stylus-loader'
+          {
+            loader: "vue-style-loader" // creates style nodes from JS strings
+          },
+          {
+            loader: "css-loader" // translates CSS into CommonJS
+          }
         ]
       }
     ]

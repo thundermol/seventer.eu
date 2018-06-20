@@ -17,6 +17,7 @@
   "author": "Daniel Cook",
   "license": "MIT",
   "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.11",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   },
@@ -40,6 +41,8 @@
     "jest": "^22.4.3",
     "jest-serializer-vue": "^1.0.0",
     "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
@@ -49,7 +52,7 @@
     "vue-server-renderer": "^2.5.16",
     "vue-style-loader": "^4.1.0",
     "vue-template-compiler": "^2.5.16",
-    "webpack": "^4.6.0",
+    "webpack": "^4.12.0",
     "webpack-cli": "^2.0.15",
     "webpack-dev-server": "^3.1.3",
     "webpack-merge": "^4.1.2"

@@ -1,8 +1,11 @@
 import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
 import router from './router'
 import App from './App'
 
-import 'assets/css/app.styl'
+import './scss/app.scss'
+
+Vue.use(BootstrapVue)
 
 /* eslint-disable-next-line no-new */
 new Vue({
