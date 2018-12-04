@@ -9,7 +9,7 @@ Vue.use(BootstrapVue)
 
 /* eslint-disable-next-line no-new */
 new Vue({
-  el: '#app',
-  router,
-  render: h => h(App)
+    el: '#app',
+    router,
+    render: h => h(App)
 })

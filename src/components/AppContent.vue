@@ -1,16 +1,16 @@
 <template>
-  <section>
-    <router-view/>
-  </section>
+    <section>
+        <router-view/>
+    </section>
 </template>
 
 <script>
-export default {
-  name: 'AppContent',
-  data () {
-    return {
-      msg: 'about'
+    export default {
+        name: 'AppContent',
+        data() {
+            return {
+                msg: 'about'
+            }
+        }
     }
-  }
-}
 </script>
