@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 justify-content-center">
+  <b-container>
+    <b-row>
+      <b-col cols="12" class="justify-content-center">
         <b-card-group deck>
           <b-card
-            img-src="./static/img/bootstrap-stack.png"
+            img-src="./assets/img/bootstrap-stack.png"
             img-alt="Card image"
             img-top>
             <p class="card-text">
@@ -12,7 +12,7 @@
             </p>
           </b-card>
           <b-card
-            img-src="./static/img/vue-logo.png"
+            img-src="./assets/img/vue-logo.png"
             img-alt="Card image"
             img-bottom>
             <p class="card-text">
@@ -20,9 +20,9 @@
             </p>
           </b-card>
         </b-card-group>
-      </div>
-    </div>
-  </div>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>

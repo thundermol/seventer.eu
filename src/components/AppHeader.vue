@@ -1,19 +1,16 @@
 <template>
   <section>
-    <div class="container">
-      <div class="row justify-content-center">
-        <p>{{ text }}</p>
-      </div>
-      <div class="row">
-        <b-col sm="12">
+    <b-container>
+      <b-row>
+        <b-col cols="12">
           <b-nav pills>
-            <b-nav-item to="/about">About</b-nav-item>
+            <b-nav-item to="/about">About me</b-nav-item>
             <b-nav-item to="/portfolio">Portfolio</b-nav-item>
             <b-nav-item to="/contact">Contact</b-nav-item>
           </b-nav>
         </b-col>
-      </div>
-    </div>
+      </b-row>
+    </b-container>
   </section>
 </template>
 
