@@ -7,15 +7,15 @@ import Contact from '../components/pages/Contact'
 Vue.use(Router)
 
 export default new Router({
+    mode: 'history',
     routes: [
         {
             path: '/',
-            name: 'Home',
-            component: About
+            redirect: { name: 'About' }
         },
         {
             path: '/about',
-            name: 'About me',
+            name: 'About',
             component: About
         },
         {

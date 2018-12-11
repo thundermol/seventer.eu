@@ -2,7 +2,7 @@
     <section>
         <b-container>
             <b-row class="justify-content-center">
-                <p class="small">This website was created with <a href="http://bootstrap-vue.js.org">bootstrap-vue</a>.
+                <p class="small">This website was created with <a target="_blank" href="http://bootstrap-vue.js.org">bootstrap-vue</a> and <a target="_blank" href="https://cli.vuejs.org/">vue-cli</a>.
                 </p>
             </b-row>
         </b-container>
