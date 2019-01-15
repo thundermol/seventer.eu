@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <b-row>
-      <b-col cols="12" class="justify-content-center">
+      <b-col cols="12">
         <b-card-group deck>
           <b-card
             img-src="./assets/img/bootstrap-stack.png"
@@ -40,5 +40,6 @@ export default {
   .card {
     max-width: 20rem;
     padding: 1em 0;
+    margin: 0 auto;
   }
 </style>

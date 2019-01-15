@@ -1,9 +1,40 @@
 @import "bootstrap-variable-override";
 @import "~bootstrap/scss/bootstrap.scss";
 
+html {
+  font-size: 16px;
+  @include media-breakpoint-up(sm) {
+    font-size: 18px;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 20px;
+  }
+}
+
+body {
+  background-color: #faf8fa;
+}
+
 section {
   padding: $spacer 0;
+  &.navbar-section {
+    padding: 0;
+    background-color: #5F2EA8;
+    @include media-breakpoint-down(sm) {
+      padding: 20px 0;
+    }
+  }
 }
+
+.navbar {
+  padding: 0;
+  .nav-link {
+    border-radius: 0;
+    padding: 1rem;
+    margin-right: 2rem
+  }
+}
+
 .card {
   transition: transform .2s;
   box-shadow: 0 3px 9px rgba(0,0,0,.2);

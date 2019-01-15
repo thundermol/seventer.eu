@@ -4,6 +4,12 @@
       <div class="col-12">
         <h1>{{ title }}</h1>
         <p>{{ text }}</p>
+        <p class="font-weight-bold">
+          This website is under construction.
+        </p>
+        <section class="text-center">
+          <iframe src="https://giphy.com/embed/CtdjHUrgR2Duw" width="320" height="214" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </section>
       </div>
     </div>
   </div>
