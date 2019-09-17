@@ -26,7 +26,7 @@
     <b-row>
       <b-col>
         <p>
-          Het weer voor de komende dagen in Arnhem, Gelderland
+          Het weer voor de komende dagen in Arnhem, Gelderland :-)
         </p>
         <b-card-group deck>
           <b-card v-for="item in days" :key="item.dt">
