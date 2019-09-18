@@ -15,6 +15,12 @@ body {
   background-color: #faf8fa;
 }
 
+main {
+  padding: $spacer 0;
+// overflow: scroll;
+//  min-height: 100%;
+}
+
 section {
   padding: $spacer 0;
   &.navbar-section {
@@ -30,8 +36,14 @@ section {
   padding: 0;
   .nav-link {
     border-radius: 0;
-    padding: 1rem;
-    margin-right: 2rem
+    padding: 1rem  1.5rem !important;
+    transition: all .15s ease-in;
+    &:hover {
+      background-color: #9a21ff;
+    }
+  }
+  .navbar-brand {
+    display: none;
   }
 }
 
